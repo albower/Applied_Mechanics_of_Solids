@@ -1,15 +1,15 @@
 # Example Finite Element Analysis codes
 Example MATLAB codes from the text "Applied Mechanics of Solids" 2nd edition, Allan Bower
 
+1. FEM_conststrain_triangles.m  Demonstration static linear elastic code using constant strain triangles.   The code can be run with input files FEM_conststrain_input.txt or FEM_conststrain_holeplate.txt;
 
+2. FEM_1D_Static.m  Simple static analysis of a 1D bar subjected to axial body force;
 
-1. FEM_1D_Static.m  Simple static analysis of a 1D bar subjected to axial body force;
+3. FEM_1D_newmark.m Simple dynamic analysis of a 1D bar subjected to axial body force, using Newmark time integration.
 
-2. FEM_1D_newmark.m Simple dynamic analysis of a 1D bar subjected to axial body force, using Newmark time integration.
+4. FEM_1D_modal.m Simple dynamic analysis of a 1D bar subjected to axial body force, using modal time integration.
 
-3. FEM_1D_modal.m Simple dynamic analysis of a 1D bar subjected to axial body force, using modal time integration.
-
-4. The following files all solve 2D or 3D static linear elastic problems, but illustrate various refinements of the finite element method:
+5. The following files all solve 2D or 3D static linear elastic problems, but illustrate various refinements of the finite element method:
 
 		(a) FEM_2Dor3D_linelast_standard.m 2D(plane strain/stress) or 3D static linear elasticity code with fully integrated elements.  The code can be run with the following input files.
 		Linear_elastic_triangles.txt: 2D plane strain problem with two triangular element; 
