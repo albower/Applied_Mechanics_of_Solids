@@ -1,3 +1,6 @@
+# Problem sets
+Example problems (without solutions) in pdf format.  You can download problem sets by chapter, or as a full set.   Solutions to the problems will be published as a companion volume to the second edition of Applied Mechanics of Solids
+
 # Example Finite Element Analysis codes
 Example MATLAB codes from the text "Applied Mechanics of Solids" 2nd edition, Allan Bower
 
