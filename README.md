@@ -18,18 +18,18 @@ Example MATLAB codes from the text "Applied Mechanics of Solids" 2nd edition, Al
 		Linear_elastic_triangles.txt: 2D plane strain problem with two triangular element; 
 		Linear_elastic_quad4.txt: 2D plane strain problem with 4 noded quadrilateral element;
 		Linear_elastic_quad8.txt: 2D plane strain problem with 8 noded quadrilateral element;
-		Linear_elastic_brick4.txt: 3D problem with 4 noded brick element;
+		Linear_elastic_brick8.txt: 3D problem with 8 noded brick element;
 		Linear_elastic_brick20.txt: 3D problem with 20 noded brick element
-		Linear_elastic_pressurized_cylinder.txt: 2D simulation of a pressurized cylinder;
+		Linear_elastic_pressurized_cylinder.txt: 2D simulation of a pressurized cylinder (with 4 noded quadrilateral elements);
 		(b) FEM_shear_locking_demo.m - Solves the beam bending problem discussed in Section 8.6.2, and compares the FEM solution with the exact solution to illustrate shear locking.
 			  This version of the code must be run with shear_locking_demo_linear.txt (solution with 4 noded quad elements)
 		(c) FEM_incompatible_modes.m  - Solves the beam bending problem discussed in Section 8.6.2 using incompatible mode elements, and compares the FEM solution with the exact solution to demonstrate that the elements avoid shear locking.
 			  This version of the code must be run with shear_locking_demo_linear.txt (solution with 4 noded quad elements)
-		(d) FEM_volumetric_locking_demo.m  - Solves the pressurized cylindrical cavity problem discussed in Section 8.6.2, and compares the FEM solution with the exact solution.
+		(d) FEM_volumetric_locking_demo.m  - Solves the pressurized cylinder problem discussed in Section 8.6.2, and compares the FEM solution with the exact solution.
 			  This version of the code must be run with volumetric_locking_demo_linear.txt (solution with 4 noded quad elements) or volumetric_locking_demo_quadratic.txt (solution with 8 noded quadrilateral elements)
-		(e) FEM_hourglassing_demo.m  - Solves the pressurized cylindrical cavity problem discussed in Section 8.6.2 with reduced integration elements, demonstrating hourglassing.
+		(e) FEM_hourglassing_demo.m  - Solves the pressurized cylinder problem discussed in Section 8.6.2 with reduced integration elements, demonstrating hourglassing.
 			  This version of the code must be run with volumetric_locking_demo_linear.txt (solution with 4 noded quad elements) 
-		(f) FEM_selective_reduced_integration.m  - Solves the pressurized cylindrical cavity problem discussed in Section 8.6.2 using selectively reduced integration, and compares the FEM solution with the exact solution.
+		(f) FEM_selective_reduced_integration.m  - Solves the pressurized cylinder problem discussed in Section 8.6.2 using selectively reduced integration, and compares the FEM solution with the exact solution.
 			  This version of the code must be run with volumetric_locking_demo_quadratic.txt (solution with 8 noded quadrilateral elements)
 		(g) FEM_hourglasscontrol.m  - Solves the pressurized cylindrical cavity problem using reduced integration elements with hourglass control, and compares the FEM solution with the exact solution.
 			  This version of the code must be run with volumetric_locking_demo_linear.txt (solution with 4 noded quad elements)
