@@ -13,12 +13,18 @@
 5. The following files all solve 2D or 3D static linear elastic problems, but illustrate various refinements of the finite element method:
 
  (a) FEM_2Dor3D_linelast_standard.m 2D(plane strain/stress) or 3D static linear elasticity code with fully integrated elements.  The code can be run with the following input files.
+	
  Linear_elastic_triangles.txt: 2D plane strain problem with two triangular element; 
+	
  Linear_elastic_quad4.txt: 2D plane strain problem with 4 noded quadrilateral element;
- Linear_elastic_quad8.txt: 2D plane strain problem with 8 noded quadrilateral element;
- Linear_elastic_brick4.txt: 3D problem with 4 noded brick element;
- Linear_elastic_brick20.txt: 3D problem with 20 noded brick element
- Linear_elastic_pressurized_cylinder.txt: 2D simulation of a pressurized cylinder;
+ 
+	Linear_elastic_quad8.txt: 2D plane strain problem with 8 noded quadrilateral element;
+ 
+	Linear_elastic_brick4.txt: 3D problem with 4 noded brick element;
+ 
+	Linear_elastic_brick20.txt: 3D problem with 20 noded brick element
+ 
+	Linear_elastic_pressurized_cylinder.txt: 2D simulation of a pressurized cylinder;
  
  (b) FEM_shear_locking_demo.m - Solves the beam bending problem discussed in Section 8.6.2, and compares the FEM solution with the exact solution to illustrate shear locking.
  	  This version of the code must be run with shear_locking_demo_linear.txt (solution with 4 noded quad elements)
