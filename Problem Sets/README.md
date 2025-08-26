@@ -1,4 +1,4 @@
-#Example Problems in Mechanics of Solids (A.F. Bower)
+# Example Problems in Mechanics of Solids (A.F. Bower)
 
 The best way to learn the physical sciences and mathematics is to dive in and start solving problems by yourself.   The hard part is knowing what problems to solve.   With this in mind, ‘Example Problems in Mechanics of Solids’ offers a large number of exercises that are designed to help students and practicing engineers to learn how to predict stresses and deformation in solids. The problems may also be useful for instructors who are looking for worked examples to use in lectures or assignments.
 
