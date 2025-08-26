@@ -1,10 +1,10 @@
 # Study Resources in Mechanics of Solids
 This site is a supplement to the text: A.F. Bower 'Applied Mechanics of Solids' (2nd ed.)CRC press, Baton Rouge, 2026.  It includes the following study resources:
 
-# Problem sets
+## Problem sets
 Example problems (without solutions) in pdf format.  Solutions to the problems will be published in A.F. Bower 'Solved Problems in Mechanics of Solids' CRC press, Baton Rouge, 2026
 
-# Example Finite Element Analysis codes
+## Example Finite Element Analysis codes
 Example MATLAB codes from the text "Applied Mechanics of Solids" 2nd edition, Allan Bower
 
 1. FEM_conststrain_triangles.m  Demonstration static linear elastic code using constant strain triangles.   The code can be run with input files FEM_conststrain_input.txt or FEM_conststrain_holeplate.txt;
