@@ -4,13 +4,13 @@
 
 1. FEM_conststrain_triangles.m  Demonstration static linear elastic code using constant strain triangles.   The code can be run with input files FEM_conststrain_input.txt or FEM_conststrain_holeplate.txt;
 
-FEM_1D_Static.m Simple static analysis of a 1D bar subjected to axial body force;
+2. FEM_1D_Static.m Simple static analysis of a 1D bar subjected to axial body force;
 
-FEM_1D_newmark.m Simple dynamic analysis of a 1D bar subjected to axial body force, using Newmark time integration.
+3. FEM_1D_newmark.m Simple dynamic analysis of a 1D bar subjected to axial body force, using Newmark time integration.
 
-FEM_1D_modal.m Simple dynamic analysis of a 1D bar subjected to axial body force, using modal time integration.
+4. FEM_1D_modal.m Simple dynamic analysis of a 1D bar subjected to axial body force, using modal time integration.
 
-The following files all solve 2D or 3D static linear elastic problems, but illustrate various refinements of the finite element method:
+5. The following files all solve 2D or 3D static linear elastic problems, but illustrate various refinements of the finite element method:
 
  (a) FEM_2Dor3D_linelast_standard.m 2D(plane strain/stress) or 3D static linear elasticity code with fully integrated elements.  The code can be run with the following input files.
  Linear_elastic_triangles.txt: 2D plane strain problem with two triangular element; 
@@ -37,26 +37,26 @@ The following files all solve 2D or 3D static linear elastic problems, but illus
  	  This version of the code must be run with volumetric_locking_demo_linear.txt or volumetric_locking_demo_quadratic.txt
 FEM_2Dor3D_linelast_dynamic.m: Solves 2D or 3D dynamic linear elasticity problems, using Newmark time integration. The code can be run with the input file Linear_elastic_dynamic_beam.txt.
 
-FEM_2Dor3D_modeshapes.m: Calculates mode shapes and natural frequencies for a linear elastic solid. The code can be run with the input file Linear_elastic_dynamic_beam.txt.
+6. FEM_2Dor3D_modeshapes.m: Calculates mode shapes and natural frequencies for a linear elastic solid. The code can be run with the input file Linear_elastic_dynamic_beam.txt.
 
-FEM_hypoelastic.m: Solves 2D (plane strain only) or 3D static problems for a hypoelastic material, as discussed in Section 8.3.9. The input files are hypoelastic_quad4.txt (2D plane strain) and hypoelastic_brick8.txt (3D).
+7. FEM_hypoelastic.m: Solves 2D (plane strain only) or 3D static problems for a hypoelastic material, as discussed in Section 8.3.9. The input files are hypoelastic_quad4.txt (2D plane strain) and hypoelastic_brick8.txt (3D).
 
-FEM_hyperelastic.m: Solves 2D (plane strain only) or 3D static problems for a hyperelastic (Neo-Hookean) material with fully integrated elements. An input file that calculates the deformed shape of a pressurized hyperelastic cylinder is provided in hyperelastic_cylinder.txt. The code can also be run with the input file Bbar_hpere_demo.txt, which solves the same problem but for a near-incompressible material. The solution is incorrect because of volumetric locking.
+8. FEM_hyperelastic.m: Solves 2D (plane strain only) or 3D static problems for a hyperelastic (Neo-Hookean) material with fully integrated elements. An input file that calculates the deformed shape of a pressurized hyperelastic cylinder is provided in hyperelastic_cylinder.txt. The code can also be run with the input file Bbar_hpere_demo.txt, which solves the same problem but for a near-incompressible material. The solution is incorrect because of volumetric locking.
 
-FEM_bbar_hyperelastic.m: Solves 2D (plane strain only) or 3D static problems for a hyperelastic (Neo-Hookean) material with locking-resistant ‘B-bar’ elements. The code can be run with the input file Bbar_hpere_demo.txt, which demonstrates that the B-bar method successfully prevents locking.
+9. FEM_bbar_hyperelastic.m: Solves 2D (plane strain only) or 3D static problems for a hyperelastic (Neo-Hookean) material with locking-resistant ‘B-bar’ elements. The code can be run with the input file Bbar_hpere_demo.txt, which demonstrates that the B-bar method successfully prevents locking.
 
-FEM_viscoplastic.m: Solves 2D (plane strain only) or 3D static problems for a small strain viscoplastic material. Input files for single-element tests are provided in viscoplastic_quad4.txt (2D plane strain) and viscoplastic_brick8.txt (3D)
+10. FEM_viscoplastic.m: Solves 2D (plane strain only) or 3D static problems for a small strain viscoplastic material. Input files for single-element tests are provided in viscoplastic_quad4.txt (2D plane strain) and viscoplastic_brick8.txt (3D)
 
-FEM_truss.m; FEM_truss_hyperelastic.m; FEM_truss_plastic.m illustrate truss elements for linear elastic, hyperelastic, and viscoplastic materials, respectively. The codes should be run with their corresponding input files FEM_truss_input.txt; FEM_truss_hyperelastic_input.txt and FEM_truss_plastic.txt.
+11. FEM_truss.m; FEM_truss_hyperelastic.m; FEM_truss_plastic.m illustrate truss elements for linear elastic, hyperelastic, and viscoplastic materials, respectively. The codes should be run with their corresponding input files FEM_truss_input.txt; FEM_truss_hyperelastic_input.txt and FEM_truss_plastic.txt.
 
-FEM_beam_Euler.m and FEM_beam_Timoshenko.m calculate deflections in elastic beams with small deflections, using the Euler-Bernoulli and Timoshenko formulastions, respectively. They can be run with input files FEM_beam_euler_input.txt and FEM_beam_timoshenko_input.txt.
+12. FEM_beam_Euler.m and FEM_beam_Timoshenko.m calculate deflections in elastic beams with small deflections, using the Euler-Bernoulli and Timoshenko formulastions, respectively. They can be run with input files FEM_beam_euler_input.txt and FEM_beam_timoshenko_input.txt.
 
-FEM_plate_Kirchhoff.m and FEM_plate_Mindlin.m calculate deflections in an elastic plate that experiences small deflections, using the Kirchhoff and Mindlin formulations, respectively.. The codes are set up to calculate the deflection of a circular plate loaded by a uniform pressure on its face. No input files are needed as the mesh is generated directly by the code.
+13. FEM_plate_Kirchhoff.m and FEM_plate_Mindlin.m calculate deflections in an elastic plate that experiences small deflections, using the Kirchhoff and Mindlin formulations, respectively.. The codes are set up to calculate the deflection of a circular plate loaded by a uniform pressure on its face. No input files are needed as the mesh is generated directly by the code.
 
-FEM_Penaltyconstraint.m and FEM_LagrangeMultiplierconstraint illustrates the use of the penalty method and Lagrange multipliers to enforce constraints in static computations. They can be run with input files Penalty_example.txt and LagrangeMultiplier_example.txt
+14. FEM_Penaltyconstraint.m and FEM_LagrangeMultiplierconstraint illustrates the use of the penalty method and Lagrange multipliers to enforce constraints in static computations. They can be run with input files Penalty_example.txt and LagrangeMultiplier_example.txt
 
-FEM_dynamic_constraints illustrates the predictor-corrector Newmark timestep for an explicit dynamic simulation with Lagrange multipliers. It should be run with the input file dynamic_constrained_beam.txt
+15. FEM_dynamic_constraints illustrates the predictor-corrector Newmark timestep for an explicit dynamic simulation with Lagrange multipliers. It should be run with the input file dynamic_constrained_beam.txt
 
-FEM_Cohesive_Zones.m illustrates the use of cohesive zone elements to model interface fracture. It should be run with input files CohesiveZone_example.txt and CohesiveZone_example_2D.txt
+16. FEM_Cohesive_Zones.m illustrates the use of cohesive zone elements to model interface fracture. It should be run with input files CohesiveZone_example.txt and CohesiveZone_example_2D.txt
 
-FEM_Contact.m illustrates 2D contact elements. It should be run with the input file Contact_example.txt
+17. FEM_Contact.m illustrates 2D contact elements. It should be run with the input file Contact_example.txt
