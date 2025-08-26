@@ -59,7 +59,7 @@ Example MATLAB codes from the text "Applied Mechanics of Solids" 2nd edition, Al
 
 14. FEM_plate_Kirchhoff.m and FEM_plate_Mindlin.m  calculate deflections in an elastic plate that experiences small deflections, using the Kirchhoff and Reissner-Mindlin formulations, respectively.   The codes are set up to calculate the deflection of a circular plate loaded by a uniform pressure on its face.   No input files are needed as the mesh is generated directly by the code.
 
-15. FEM_Penaltyconstraint.m and FEM_LagrangeMultiplierconstraint illustrates the use of the penalty method and Lagrange multipliers to enforce constraints in static computations.  They can be run with input files Penalty_example.txt and LagrangeMultiplier_example.txt
+15. FEM_Penaltyconstraint.m and FEM_LagrangeMultiplierconstraint illustrates the use of the penalty method and Lagrange multipliers to enforce constraints in static computations.  They can be run with input files Tie_constraint_example.txt 
 
 16. FEM_dynamic_constraints illustrates the predictor-corrector Newmark timestep for an explicit dynamic simulation with Lagrange multipliers.   It should be run with the input file dynamic_constrained_beam.txt
 
