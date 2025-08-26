@@ -1,0 +1,48 @@
+No._material_props:    2
+    Youngs_modulus:   10.
+    Poissons_ratio:  0.3
+No._coords_per_node:   3
+No._DOF_per_node:      3
+No._nodes:             20
+Nodal_coords:
+    0.0    0.0    0.0
+    4.0    0.0    0.0
+    4.0    4.0    0.0
+    0.0    4.0    0.0
+    0.0    0.0    4.0
+    4.0    0.0    4.0
+    4.0    4.0    4.0
+    0.0    4.0    4.0
+    2.0    0.0    0.0
+    4.0    2.0    0.0
+    2.0    4.0    0.0
+    0.0    2.0    0.0
+    2.0    0.0    4.0
+    4.0    2.0    4.0
+    2.0    4.0    4.0
+    0.0    2.0    4.0
+    0.0    0.0    2.0
+    4.0    0.0    2.0
+    4.0    4.0    2.0
+    0.0    4.0    2.0
+No._elements:                       1
+Max_no._nodes_on_any_one_element:   20
+element_identifier; no._nodes_on_element; connectivity:
+    1  20  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+No._nodes_with_prescribed_DOFs:  11
+Node_#, DOF#, Value:
+   1  1  0.0
+   1  2  0.0
+   1  3  0.0
+   2  3  0.0
+   3  3  0.0
+   4  3  0.0
+   4  1  0.0
+   9  3  0.0
+   10 3  0.0
+   11 3  0.0
+   12 3  0.0
+No._elements_with_prescribed_loads: 1
+Element_#, Face_#, Traction_components
+  1  2  0.0  0.0  1.0
+

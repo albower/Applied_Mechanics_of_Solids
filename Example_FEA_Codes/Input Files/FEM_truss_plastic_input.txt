@@ -1,0 +1,24 @@
+No._dof:               2
+No._nodes:             3
+Nodal_coords:
+    0.0   0.0
+    1.0   0.0
+    0.0   1.0
+No._elements:                    2
+Element_connectivity:
+    1 2
+    2 3
+No._member_props:   4
+    0.010 100000 500. 0.25
+    0.010 100000 500. 0.25
+No._load_steps: 100
+Solver_Tolerance: 0.0001;
+No._nodes_with_prescribed_DOFs:  4
+Node_#, DOF#, Value:
+   1 1 0.0
+   1 2 0.0
+   3 1 0.0
+   3 2 0.0
+No._joints_with_prescribed_loads: 1
+Joint_#,  Force_components
+  2 0.50 5.0

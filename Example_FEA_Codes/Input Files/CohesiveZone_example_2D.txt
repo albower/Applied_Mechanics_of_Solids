@@ -1,0 +1,39 @@
+No._material_props:    5
+    E:   200.
+   Poissons_ratio: 0.3
+   Sigma_max: 10.
+   delta_n: 0.01
+   eta: 0.1
+No._coords_per_node:   2
+No._DOF_per_node:      2
+No._nodes:             8
+Nodal_coords
+    0.0   0.0
+    1.0   0.0
+    1.0   1.0
+    0.0   1.0
+    0.0   1.0
+    1.0   1.0
+    1.0   2.0
+    0.0   2.0
+No._solid_elements:                       2
+Max_no._nodes_on_any_one_element:   4
+element_identifier; no._nodes_on_element; connectivity:
+    0  4  1 2 3 4
+    0  4  5 6 7 8
+No._cohesive_zone_elements:                       1
+element_identifier; no._nodes_on_element; connectivity:
+    2  4  4 3 5 6
+No._nodes_with_prescribed_DOFs:  8
+Node_#, DOF#, Value:
+   1 1 0.0
+   1 2 0.0
+   2 2 0.0
+   4 1 0.0
+   5 1 0.0
+   7 2 0.25
+   8 1 0.0
+   8 2 0.25
+No._elements_with_prescribed_loads: 0
+Element_#, Face_#, Traction_components,
+  1 2 20.0 0.0

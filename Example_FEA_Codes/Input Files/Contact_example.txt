@@ -1,0 +1,39 @@
+No._material_props:    4
+    S_0:   10.
+    e_0:   0.001
+    n:  4
+   Poissons_ratio: 0.3
+No._coords_per_node:   2
+No._DOF_per_node:      2
+No._nodes:             8
+Nodal_coords:
+    0.0   0.10
+    1.0   0.10
+    1.0   1.10
+    0.0   1.10
+   -1.0  -1.0
+    2.0 -1.0
+    2.0  0.0
+   -1.0  0.0
+No._elements:                       2
+Max_no._nodes_on_any_one_element:   4
+element_identifier; no._nodes_on_element; connectivity:
+    1   4   1 2 3 4
+    1   4   5 6 7 8
+No._nodes_with_prescribed_DOFs:  6 
+Node_#, DOF#, Value:
+   4  1  0.5 
+   4  2  -0.3 
+   3  2  -0.3 
+   5  1  0.0
+   5  2  0.0
+   6  2  0.0
+No._elements_with_prescribed_loads: 0
+No._slave_nodes: 2
+Node_#s
+  1 2
+No._master_nodes: 2
+Node_#s
+   8 7
+
+ 

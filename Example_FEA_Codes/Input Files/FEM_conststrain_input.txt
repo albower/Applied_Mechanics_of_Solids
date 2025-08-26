@@ -1,0 +1,21 @@
+Material_Props:
+    Young's_modulus:   100.
+    Poissons_ratio:  0.3
+No._nodes:             4
+Nodal_coords:
+    0.0   0.0
+    1.0   0.0
+    0.0   1.0
+    1.0   1.0
+No._elements:                    2
+Element_connectivity:
+    1 2 3
+    2 4 3
+No._nodes_with_prescribed_DOFs:  3
+Node_#, DOF#, Value:
+   1 1 0.0
+   1 2 0.0
+   3 1 0.0
+No._elements_with_prescribed_loads: 1
+Element_#, Face_#, Traction_components
+  2 1 10.0 0.0

@@ -1,0 +1,25 @@
+No._material_props:    4
+    S_0:   10.
+    e_0:   0.001
+    n:  10
+   Poissons_ratio: 0.3
+No._coords_per_node:   2
+No._DOF_per_node:      2
+No._nodes:             4
+Nodal_coords
+    0.0   0.0
+    1.0   0.0
+    1.0   1.0
+    0.0   1.0
+No._elements:                       1
+Max_no._nodes_on_any_one_element:   4
+element_identifier; no._nodes_on_element; connectivity:
+    1  4  1 2 3 4
+No._nodes_with_prescribed_DOFs:  3
+Node_#, DOF#, Value:
+   1 1 0.0
+   1 2 0.0
+   2 2 0.0
+No._elements_with_prescribed_loads: 1
+Element_#, Face_#, Traction_components,
+  1 3 0.0 20.0

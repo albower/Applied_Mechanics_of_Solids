@@ -1,0 +1,22 @@
+No._dof:               2
+No._nodes:             3
+Nodal_coords:
+    0.0   0.0
+    1.0   0.0
+    0.0   1.0
+No._elements:                    2
+Element_connectivity:
+    1 2
+    2 3
+No._member_props:   2
+    10000.0 0.01
+    10000.0 0.01
+No._nodes_with_prescribed_DOFs:  4
+Node_#, DOF#, Value:
+   1 1 0.0
+   1 2 0.0
+   3 1 0.0
+   3 2 0.0
+No._joints_with_prescribed_loads: 1
+Joint_#,  Force_components
+  2 0.0 1.0
