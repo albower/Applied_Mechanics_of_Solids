@@ -1,6 +1,6 @@
 # Example Problems in Mechanics of Solids (A.F. Bower)
 
-The best way to learn the physical sciences and mathematics is to dive in and start solving problems by yourself.   The hard part is knowing what problems to solve.   With this in mind, ‘Example Problems in Mechanics of Solids’ offers a large number of exercises that are designed to help students and practicing engineers to learn how to predict stresses and deformation in solids. The problems may also be useful for instructors who are looking for worked examples to use in lectures or assignments.
+The best way to learn the physical sciences and mathematics is to dive in and start solving problems by yourself.   The hard part is knowing what problems to solve.   With this in mind, ‘Example Problems in Mechanics of Solids’ offers a large number of exercises that are designed to help students and practicing engineers learn to predict stresses and deformation in solids subjected to mechanical or thermal loading. The problems may also be useful for instructors who are looking for worked examples to use in lectures or assignments.
 
 The book is intended to be used as a companion volume to  A.F. Bower’s “Applied Mechanics of Solids,” 2nd ed. CRC press, Boca Raton FL (2026).   The chapter headings and sub-sections are identical in both books, and every topic covered in the main text has a set of relevant exercises.   Where appropriate, the example problems also reference the relevant sections of Applied Mechanics of Solids.
 
@@ -18,9 +18,9 @@ There are a total of 528 problems.   The problems in each section are progressiv
 
 •	Chapter 4 has a set of boundary value problems for solids with a simple geometry and an elastic constitutive law, which can be solved analytically.
 
-•	The problems in Chapter 5 are concerned with applications of the theory of linear elasticity;
+•	The problems in Chapter 5 are concerned with applications of the theory of linear elasticity.
 
-•	Chapter 6 has problems that illustrate solutions to boundary value problems and limit theorems for plastically deforming solids
+•	Chapter 6 has problems that illustrate solutions to boundary value problems and limit theorems for plastically deforming solids.
 
 •	Chapter 7 has a set of introductory problems related to finite element analysis, and includes a set of tutorial exercises that are designed to be solved using the ‘learning edition’ of the commercial finite element code ABAQUS®.   This code can be downloaded at no cost from the third-party website https://www.3ds.com/edu/education/students/solutions/abaqus-le. 
 
