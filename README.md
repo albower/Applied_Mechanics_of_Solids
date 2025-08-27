@@ -47,9 +47,9 @@ Example MATLAB codes from the text "Applied Mechanics of Solids" 2nd edition, Al
 
 8. FEM_hypoelastic.m: Solves 2D (plane strain only) or 3D static problems for a hypoelastic material, as discussed in Section 8.3.9.  The input files are hypoelastic_quad4.txt (2D plane strain) and hypoelastic_brick8.txt (3D).   
 
-9. FEM_hyperelastic.m: Solves 2D (plane strain only) or 3D static problems for a hyperelastic (Neo-Hookean) material with fully integrated elements. An input file that calculates the deformed shape of a pressurized hyperelastic cylinder is provided in hyperelastic_cylinder.txt.  The code can also be run with the input file Bbar_hpere_demo.txt, which solves the same problem but for a near-incompressible material.   The solution is incorrect because of volumetric locking.
+9. FEM_hyperelastic.m: Solves 2D (plane strain only) or 3D static problems for a hyperelastic (Neo-Hookean) material with fully integrated elements. An input file that calculates the deformed shape of a pressurized hyperelastic cylinder is provided in hyperelastic_cylinder.txt.  The code can also be run with the input file Bbar_hypere_demo.txt, which solves the same problem but for a near-incompressible material.   The solution is incorrect because of volumetric locking.
 
-10. FEM_bbar_hyperelastic.m: Solves 2D (plane strain only) or 3D static problems for a hyperelastic (Neo-Hookean) material with locking-resistant ‘B-bar’ elements. The code can be run with the input file Bbar_hpere_demo.txt, which demonstrates that the B-bar method successfully prevents locking.
+10. FEM_bbar_hyperelastic.m: Solves 2D (plane strain only) or 3D static problems for a hyperelastic (Neo-Hookean) material with locking-resistant ‘B-bar’ elements. The code can be run with the input file Bbar_hypere_demo.txt, which demonstrates that the B-bar method successfully prevents locking.
 
 11. FEM_viscoplastic.m: Solves 2D (plane strain only) or 3D static problems for a small strain viscoplastic material. Input files for single-element tests are provided in viscoplastic_quad4.txt (2D plane strain) and viscoplastic_brick8.txt (3D)
 
