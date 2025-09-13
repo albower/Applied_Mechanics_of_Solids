@@ -1,5 +1,5 @@
 # Study Resources in Mechanics of Solids
-This site is a supplement to the text: A.F. Bower 'Applied Mechanics of Solids' (2nd ed.)CRC press, Baton Rouge, 2026.  It includes the following study resources:
+This site is a supplement to the text: A.F. Bower 'Applied Mechanics of Solids' (2nd ed.) CRC press, Baton Rouge, 2026.  It includes the following study resources:
 
 ## Problem sets
 Example problems (without solutions) in pdf format.  Solutions to the problems will be published in A.F. Bower 'Solved Problems in Mechanics of Solids' CRC press, Baton Rouge, 2026
