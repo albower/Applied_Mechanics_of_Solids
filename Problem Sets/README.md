@@ -2,7 +2,7 @@
 
 The best way to learn the physical sciences and mathematics is to dive in and start solving problems by yourself.   The hard part is knowing what problems to solve.   With this in mind, ‘Example Problems in Mechanics of Solids’ offers a large number of exercises that are designed to help students and practicing engineers learn to predict stresses and deformation in solids subjected to mechanical or thermal loading. The problems may also be useful for instructors who are looking for worked examples to use in lectures or assignments.
 
-The book is intended to be used as a companion volume to  A.F. Bower’s “Applied Mechanics of Solids,” 2nd ed. CRC press, Boca Raton FL (2026).   The chapter headings and sub-sections are identical in both books, and every topic covered in the main text has a set of relevant exercises.   Where appropriate, the example problems also reference the relevant sections of Applied Mechanics of Solids.
+The problems are intended to accompany  A.F. Bower’s “Applied Mechanics of Solids,” 2nd ed. CRC press, Boca Raton FL (2026).   The chapter headings and sub-sections in the problem sets correspond to those in the text, and every topic covered in the main text has a set of relevant exercises.   Where appropriate, the example problems also reference the relevant sections of Applied Mechanics of Solids.
 
 A solution manual - A.F. Bower’s “Solved Problems in Mechanics of Solids,” CRC press, Boca Raton FL (2026) - is in press. 
 
