@@ -4,5 +4,5 @@ This directory contains databases for the 'learning edition' of ABAQUS/CAE® tha
 
 The 'learning edition' of ABAQUS® can be downloaded at no cost from the Simulia website at https://www.3ds.com/edu/education/students/solutions/abaqus-le
 
-ABAQUS®, the 3DS logo®, and SIMULIA® are commercial trademarks or registered trademarks of Dassault Systèmes or its subsidiaries in the United States and/or other countries. Dassault does not warrant the accuracy of the databases on this site. This book’s use or discussion of ABAQUS® software or related products does not constitute endorsement or sponsorship by Dassault of a particular pedagogical approach or particular use ABAQUS® software.
+ABAQUS®, the 3DS logo®, and SIMULIA® are commercial trademarks or registered trademarks of Dassault Systèmes or its subsidiaries in the United States and/or other countries. Dassault does not warrant the accuracy of the databases on this site. This site’s use or discussion of ABAQUS® software or related products does not constitute endorsement or sponsorship by Dassault of a particular pedagogical approach or particular use ABAQUS® software.
 
