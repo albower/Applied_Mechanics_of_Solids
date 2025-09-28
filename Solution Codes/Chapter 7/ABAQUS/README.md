@@ -1,6 +1,6 @@
 # Solutions to ABAQUS finite element analysis problems
 
-This directory contains ABAQUS® .cae databases for the 'learning edition' of ABAQUS/CAE® that solve finite element analysis problems from the text 'Solved Problems in Mechanics of Solids,' A.F. Bower, Routlege, FL (2026).
+This directory contains databases for the 'learning edition' of ABAQUS/CAE® that solve finite element analysis problems from Chapter 7 of the text 'Solved Problems in Mechanics of Solids,' A.F. Bower, Routlege, FL (2026).
 
 The 'learning edition' of ABAQUS® can be downloaded at no cost from the Simulia website at https://www.3ds.com/edu/education/students/solutions/abaqus-le
 
