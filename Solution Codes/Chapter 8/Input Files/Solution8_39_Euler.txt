@@ -1,0 +1,43 @@
+No._beams:             1
+Beam_1
+No._nodes:             11
+Nodal_coords:
+    0.0   0.0   0.0
+    1.0   0.0   0.0
+    2.0   0.0   0.0
+    3.0   0.0   0.0
+    4.0   0.0   0.0
+    5.0   0.0   0.0
+    6.0   0.0   0.0
+    7.0   0.0   0.0
+    8.0   0.0   0.0
+    9.0   0.0   0.0
+    10.0  0.0   0.0   
+No._elements:                    10
+Element_connectivity:
+    1 2
+    2 3
+    3 4
+    4 5
+    5 6
+    6 7
+    7 8
+    8 9
+    9 10
+    10 11
+Material_Props(E_mu_density):   1 0.8  1
+e1_direction: 0 1 0
+Inertias(I11,I12,I22,I33)_in_local_e_i_basis: 1 0 1 2
+Area: 1
+No._nodes_with_prescribed_DOFs:  6
+Node_#, DOF#, Value:
+   1 1 0.0
+   1 2 0.0
+   1 3 0.0
+   1 4 0.0
+   1 5 0.0
+   1 6 0.0
+No._nodes_with_prescribed_loads: 1
+Node_#,  Force_and_moment_components
+  11 0.0 1. 0.0 0.0 0.0 0.0
+

@@ -1,0 +1,38 @@
+No._material_props:    9
+    E:   42946.1
+    nu:   0.4588
+    mu:  42260
+    Basis_vector_1_x: 1
+    Basis_vector_1_y: 0
+    Basis_vector_1_z: 1
+    Basis_vector_2_x: -1
+    Basis_vector_2_y: 0
+    Basis_vector_2_z: 1
+No._coords_per_node:   3
+No._DOF_per_node:      3
+No._nodes:             8
+Nodal_coords
+    0.0   0.0  0.0
+    1.0   0.0  0.0
+    1.0   1.0  0.0
+    0.0   1.0  0.0
+    0.0   0.0  1.0
+    1.0   0.0  1.0
+    1.0   1.0  1.0
+    0.0   1.0  1.0    
+No._solid_elements:                       1
+Max_no._nodes_on_any_one_element:   8
+element_identifier; no._nodes_on_element; connectivity:
+    1  8  1 2 3 4 5 6 7 8
+No._nodes_with_prescribed_DOFs:  7
+Node_#, DOF#, Value:
+   1 1 0.0
+   1 2 0.0
+   1 3 0.0
+   2 2 0.0
+   2 3 0.0
+   3 3 0.0
+   4 3 0.0 
+No._elements_with_prescribed_loads: 1
+Element_#, Face_#, Traction_components,
+  1 2 0.0 0.0 10000.0

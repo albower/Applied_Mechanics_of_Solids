@@ -1,0 +1,60 @@
+No._material_props:    2
+    Youngs_modulus:   10.
+    Poissons_ratio:  0.3
+No._coords_per_node:   2
+No._DOF_per_node:      2
+No._nodes:             21
+Nodal_coords
+   0.0  0.0
+   2.0  0.0
+   4.0  0.0
+   5.0  0.0
+   6.0  0.0
+   4.0  1.0
+   5.0  1.0
+   6.0  1.0
+   0.0  2.0
+   2.0  2.0
+   4.0  2.0
+   5.0  2.0
+   6.0  2.0
+   4.0  3.0
+   5.0  3.0
+   6.0  3.0
+   0.0  4.0
+   2.0  4.0
+   4.0  4.0
+   5.0  4.0
+   6.0  4.0 
+No._solid_elements:                       12
+Max_no._nodes_on_any_one_element:   4
+element_identifier(0=planestress_1=planestrain); no._nodes_on_element; connectivity:
+    0  4  1 2 10 9
+    0  4  2 3 11 10
+    0  4  9 10 18 17
+    0  4  10 11 19 18
+    0  4  3 4 7 6
+    0  4  4 5 8 7
+    0  4  6 7 12 11
+    0  4  7 8 13 12
+    0  4  11 12 15 14
+    0  4  12 13 16 15
+    0  4  14 15 20 19
+    0  4  15 16 21 20
+No._nodes_with_prescribed_DOFs:  4
+Node_#, DOF#, Value:
+   1 1 0.0
+   1 2 0.0
+   9 1 0.0
+   17 1 0.0
+No._elements_with_prescribed_loads: 4
+Element_#, Face_#, Traction_components
+   6 2  1.0 0.0
+   8 2  1.0 0.0
+   10 2 1.0 0.0
+   12 2 1.0 0.0
+No._constraints: 2
+Node_a, Node_b, Node_c
+  11 3 6
+  19 11 14
+Penalty_Stiffness: 10000

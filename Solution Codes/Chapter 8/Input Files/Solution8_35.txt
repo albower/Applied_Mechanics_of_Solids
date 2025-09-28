@@ -1,0 +1,33 @@
+No._dof:               2
+No._nodes:             5
+Nodal_coords:
+    0.0   0.0
+    4.0   0.0
+    8.0   0.0
+    6.0   3.4641
+    2.0   3.4641
+No._elements:                    7
+Element_connectivity:
+    1 2
+    2 3
+    1 5
+    2 5
+    2 4
+    3 4
+    4 5
+No._member_props:   3
+    210.0e09 0.0004 8000
+    210.0e09 0.0004 8000
+    210.0e09 0.0004 8000
+    210.0e09 0.0004 8000
+    210.0e09 0.0004 8000
+    210.0e09 0.0004 8000
+    210.0e09 0.0004 8000
+No._nodes_with_prescribed_DOFs:  3
+Node_#, DOF#, Value:
+   1 1 0.0
+   1 2 0.0
+   3 2 0.0
+No._joints_with_prescribed_loads: 0
+Joint_#,  Force_components
+  2 0.0 -1.e05
