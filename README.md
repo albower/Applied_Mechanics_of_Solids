@@ -4,6 +4,9 @@ This site is a supplement to the text: A.F. Bower 'Applied Mechanics of Solids' 
 ## Problem sets
 Example problems (without solutions) in pdf format.  Solutions to the problems will be published in A.F. Bower 'Solved Problems in Mechanics of Solids' CRC press, Baton Rouge, 2026
 
+## Solution Codes
+Solutions to the finite element simulation and coding problems from the text 'Solved Problems in Mechanics of Solids,' A.F. Bower, CRC press, Baton Rouge, (2026)
+
 ## Example Finite Element Analysis codes
 Example MATLAB codes from the text "Applied Mechanics of Solids" 2nd edition, Allan Bower
 
