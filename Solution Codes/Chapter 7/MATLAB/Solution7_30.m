@@ -10,7 +10,7 @@ function Solution7_30
 %       von Mises stress
 %
 %       This code solves problem 7.30 from the text
-%       A.F. Bower, 'Solved Problems in Mechanics of Solids'  
+%       A.F. Bower, 'Solved Problems in Applied Mechanics of Solids'  
 %       CRC press, Baton Rouge, 2026
 %
 %   It was downloaded from
@@ -305,5 +305,6 @@ for i = 1 : ndload
         dum=dum+1;
     end
 end
+
 
 end
