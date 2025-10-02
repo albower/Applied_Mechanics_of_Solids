@@ -8,7 +8,7 @@ function fem_conststrain_triangles
 %       constrained to deform in plane strain
 %
 %       This code solves problem 7.31 from the text
-%       A.F. Bower, 'Solved Problems in Mechanics of Solids'  
+%       A.F. Bower, 'Solved Problems in Applied Mechanics of Solids'  
 %       CRC press, Baton Rouge, 2026
 %
 %   It was downloaded from
@@ -294,4 +294,5 @@ end
         sqq = pa*a^2/(b^2-a^2)*(1 + b^2/r^2);
         szz = 2*nu*pa*a^2/(b^2-a^2);
     
+
     end
