@@ -4,7 +4,7 @@ function Solution7_32
 %       pinned vertically at both ends and subected to a transverse force
 %
 %       This code solves problem 7.32 from the text
-%       A.F. Bower, 'Solved Problems in Mechanics of Solids'  
+%       A.F. Bower, 'Solved Problems in Applied Mechanics of Solids'  
 %       CRC press, Baton Rouge, 2026
 %
 %   It was downloaded from
@@ -69,6 +69,7 @@ title('Transverse deflection of a tensioned cable');
     'Interpreter','latex',...
     'FontSize',14,...
     'FontName','Times New Roman');
+
 
 
 end
