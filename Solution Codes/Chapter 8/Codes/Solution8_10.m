@@ -4,7 +4,7 @@ function Solution8_10
 %          Example 2D and 3D linear elastic FEM code 
 %
 %       This code solves problem 8.10 from the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids'  
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids'  
 %       CRC press, Baton Rouge, 2026
 %
 %
@@ -1413,4 +1413,5 @@ end
  hold off
  end
  
+
  
