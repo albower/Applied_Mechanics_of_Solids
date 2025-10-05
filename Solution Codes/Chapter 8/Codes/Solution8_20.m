@@ -1,7 +1,7 @@
 function Solution8_20
 %
 %       This code solves problem 8.19 from the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids' 
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids' 
 %       CRC press, Baton Rouge, 2026
 %
 %       It was downloaded from
@@ -111,4 +111,5 @@ function [R,K] = globalmatrices(coords,materialprops,w)
         K(el+1,el) = K(el+1,el) - dsde/Lel;
         K(el+1,el+1) = K(el+1,el+1) + dsde/Lel;
     end
+
 end
