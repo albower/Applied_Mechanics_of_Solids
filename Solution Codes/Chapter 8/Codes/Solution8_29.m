@@ -5,7 +5,7 @@ function FEM_incompatible_modes
 %          extended to demonstrate incompatible mode elements
 %
 %       This code solves problem 8.29 from the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids' (2nd ed.) 
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids' (2nd ed.) 
 %       CRC press, Baton Rouge, 2026
 %
 %       It was downloaded from
@@ -1349,4 +1349,5 @@ end
  hold off
  end
  
+
  
