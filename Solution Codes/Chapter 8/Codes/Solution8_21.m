@@ -4,7 +4,7 @@ function Solution8_21
 %          Example 2D and 3D hypoelastic FEM code 
 %
 %       This code solves problem 8.21 from the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids' (2nd ed.) 
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids' (2nd ed.) 
 %       CRC press, Baton Rouge, 2026
 %
 %       It was downloaded from
@@ -1539,4 +1539,5 @@ end
    axis equal
    hold off
   end
+
 
