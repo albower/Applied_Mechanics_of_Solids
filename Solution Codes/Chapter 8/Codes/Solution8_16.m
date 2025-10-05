@@ -1,7 +1,7 @@
 function Solution8_16
 %
 %       This code solves problem 8.16 the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids'  
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids'  
 %       CRC press, Baton Rouge, 2026
 %
 %       It was downloaded from
@@ -151,4 +151,5 @@ end
        plotvars(2,n) = un(nnodes/2);
 % 
      end
+
     end
