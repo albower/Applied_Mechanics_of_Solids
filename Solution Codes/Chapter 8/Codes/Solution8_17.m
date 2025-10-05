@@ -1,7 +1,7 @@
 function Solution8_17
 %
 %       This code solves problem 8.17 the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids'  
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids'  
 %       CRC press, Baton Rouge, 2026
 %
 %       It was downloaded from
@@ -130,4 +130,5 @@ function Solution8_17
            'FontName','Times New Roman');
 
   
+
 end
