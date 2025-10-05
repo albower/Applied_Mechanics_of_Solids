@@ -5,7 +5,7 @@ function Solution8_22
 %
 %
 %       This code solves problem 8.22 from the text
-%       A.F. Bower 'Applied Mechanics of Solids' (2nd ed.) 
+%       A.F. Bower 'Applied Applied Mechanics of Solids' (2nd ed.) 
 %       CRC press, Baton Rouge, 2026
 %
 %       It was downloaded from
@@ -1440,4 +1440,5 @@ end
    end
    axis equal
    hold off
+
 end
