@@ -1,7 +1,7 @@
 function Solution8_19
 %
 %       This code solves problem 8.19 from the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids' 
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids' 
 %       CRC press, Baton Rouge, 2026
 %
 %       It was downloaded from
@@ -31,6 +31,7 @@ function Solution8_19
   end
   disp(' ');
   disp(['Solution: x = ',num2str(x),' y = ',num2str(y)]) 
+
 
 
 
