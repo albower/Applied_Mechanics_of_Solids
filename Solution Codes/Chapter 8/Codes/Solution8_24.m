@@ -7,7 +7,7 @@ function Solution8_24
 %
 %
 %       This code solves problem 8.24 from the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids' (2nd ed.) 
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids' (2nd ed.) 
 %       CRC press, Baton Rouge, 2026
 %
 
@@ -1594,4 +1594,5 @@ end
    axis equal
    hold off
   end
+
 
