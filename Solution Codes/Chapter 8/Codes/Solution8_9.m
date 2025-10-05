@@ -4,7 +4,7 @@ function Solution8_9
 %          Example 2D and 3D linear elastic FEM code 
 %
 %       This code solves problem 8.9 from the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids'  
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids'  
 %       CRC press, Baton Rouge, 2026
 %
 %       It was downloaded from
@@ -1341,4 +1341,5 @@ function plotmesh(coords,ncoord,nnode,connect,nelem,elident,nelnodes,color)
  
  
  
+
  
