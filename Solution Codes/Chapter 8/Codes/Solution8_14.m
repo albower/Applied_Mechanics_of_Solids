@@ -2,7 +2,7 @@ function Solution8_14
 
 %
 %       This code solves problem 8.14 the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids'  
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids'  
 %       CRC press, Baton Rouge, 2026
 %
 %       It was downloaded from
@@ -101,4 +101,5 @@ function [time,uplot,vplot] = solve_oscillator(dt,beta1,beta2,nsteps)
        v = v1;
        a = a1;
     end
+
 end
