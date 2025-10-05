@@ -4,7 +4,7 @@ function Solution8_40
 %
 %
 %       This code solves problem 8.40 from the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids'
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids'
 %       CRC press, Baton Rouge, 2026
 %
 %       It was downloaded from
@@ -331,3 +331,4 @@ function [N,dNdx,d2Ndx2,Area] = shape(xi,coorda,coordb,coordc)
     Area = Delta/2;
 
 end
+
