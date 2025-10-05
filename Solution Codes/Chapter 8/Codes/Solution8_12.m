@@ -4,7 +4,7 @@ function FEM_2Dor3D_linelast_dynamic
 %
 %
 %       This code solves problem 8.12 the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids'  
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids'  
 %       CRC press, Baton Rouge, 2026
 %
 %       It was downloaded from
@@ -1347,4 +1347,5 @@ end
  hold off
  end
  
+
  
