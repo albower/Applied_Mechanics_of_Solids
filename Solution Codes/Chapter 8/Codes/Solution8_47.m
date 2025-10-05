@@ -6,7 +6,7 @@ function Solution8_47
 %          include cohesive zone elements.
 %
 %       This code solves problem 8.47 from the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids'  
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids'  
 %       CRC press, Baton Rouge, 2026
 %
 %       It was downloaded from
@@ -1614,3 +1614,4 @@ function check_stiffness(outfile,lmn,ncoord,ndof,nnode,coords,nelem,maxnodes,eli
       end
     end    
 end
+
