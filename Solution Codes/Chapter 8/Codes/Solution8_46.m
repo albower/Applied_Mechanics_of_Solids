@@ -5,7 +5,7 @@ function Solution8_46
 %          enforce tie constraints to connect incompatible 2D meshes.
 %
 %       This code solves problem 8.45 from the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids'  
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids'  
 %       CRC press, Baton Rouge, 2026
 %
 %       It was downloaded from
@@ -1327,4 +1327,5 @@ end
  hold off
  end
  
+
  
