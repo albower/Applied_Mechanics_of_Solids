@@ -3,7 +3,7 @@ function Solution8_36a
 %          Example FEM code using elastic Euler beam elements
 %
 %       This code solves problem 8.36(a) and 8.36(c) from the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids'
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids'
 %       CRC press, Baton Rouge, 2026
 %
 %       It was downloaded from
@@ -288,5 +288,6 @@ hold on
     end
 
     scatter3(coord(:,1),coord(:,2),coord(:,3),'MarkerFaceColor',[1,0,0]);
+
 
 end
