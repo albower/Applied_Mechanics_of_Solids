@@ -4,7 +4,7 @@ function Solution8_7
 %          Example 2D and 3D linear elastic FEM code 
 %
 %       This code solves problem 8.7 from the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids' 
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids' 
 %       CRC press, Baton Rouge, 2026
 %
 %       The general FEA code has been edited to set the number of 
@@ -1276,4 +1276,5 @@ end
  hold off
  end
  
+
  
