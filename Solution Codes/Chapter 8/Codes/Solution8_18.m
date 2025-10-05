@@ -5,7 +5,7 @@ function Solution8_18
 %
 %
 %       This code solves problem 8.18 from the text
-%       A.F. Bower 'Solved Problems in Mechanics of Solids' 
+%       A.F. Bower 'Solved Problems in Applied Mechanics of Solids' 
 %       CRC press, Baton Rouge, 2026
 %
 %       WARNING: this demonstration code uses fully integrated elements
@@ -1502,4 +1502,5 @@ end
    axis equal
    hold off
   end
+
 
