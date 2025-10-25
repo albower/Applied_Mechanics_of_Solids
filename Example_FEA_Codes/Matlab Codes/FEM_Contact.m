@@ -19,7 +19,7 @@ function FEM_Contact
 %       
 %       This code is an example from the text
 %       A.F. Bower 'Applied Mechanics of Solids' (2nd ed.) 
-%       CRC press, Baton Rouge, 2026
+%       CRC press, Baton Rouge, 2025
 %
 %       It was downloaded from
 %       https://github.com/albower/Applied_Mechanics_of_Solids
@@ -204,7 +204,6 @@ function FEM_Contact
         nelem,maxnodes,connect,nelnodes,elident, ...
         nfix,fixnodes,ndload,dloads,w)
 
-%   check_stiffness(stiffile,lmn,ncoord,ndof,nnode,coords,nelem,maxnodes,elident,nelnodes,connect,materialprops,w)   
     % Create a plot of the deformed mesh
     
     defcoords = zeros(ndof,nnode);
@@ -1754,4 +1753,5 @@ end
    axis equal
    hold off
   end
+
 
