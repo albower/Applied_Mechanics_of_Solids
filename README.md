@@ -2,10 +2,10 @@
 This site is a supplement to the text: A.F. Bower 'Applied Mechanics of Solids' (2nd ed.) CRC press, Baton Rouge, 2025 and its e-text [(https://solidmechanics.org)](https://solidmechanics.org/index.html).  It includes the following study resources:
 
 ## Problem sets
-Example problems (without solutions) in pdf format.  The problems with solutions are also published in A.F. Bower 'Solved Problems in Applied Mechanics of Solids' CRC press, Baton Rouge, 2026 [Routlege](https://www.routledge.com/Solved-Problems-in-Applied-Mechanics-of-Solids/Bower/p/book/9781041237198) or [Amazon](https://www.amazon.com/Solved-Problems-Applied-Mechanics-Solids/dp/1041237197/ref=zg_bsnr_g_14585_d_sccl_1/140-2111246-7689054?psc=1).
+Example problems (without solutions) in pdf format.  The problems with solutions are also published in A.F. Bower 'Solved Problems in Applied Mechanics of Solids' CRC press, Baton Rouge, 2026, available from [Routlege](https://www.routledge.com/Solved-Problems-in-Applied-Mechanics-of-Solids/Bower/p/book/9781041237198) or [Amazon](https://www.amazon.com/Solved-Problems-Applied-Mechanics-Solids/dp/1041237197/ref=zg_bsnr_g_14585_d_sccl_1/140-2111246-7689054?psc=1).
 
 ## Solution Codes
-Solutions to the finite element analysis and coding problems from the text 'Solved Problems in Applied Mechanics of Solids,' A.F. Bower, CRC press, Baton Rouge, (2026) available from [Routlege](https://www.routledge.com/Solved-Problems-in-Applied-Mechanics-of-Solids/Bower/p/book/9781041237198) or [Amazon](https://www.amazon.com/Solved-Problems-Applied-Mechanics-Solids/dp/1041237197/ref=zg_bsnr_g_14585_d_sccl_1/140-2111246-7689054?psc=1). 
+Solutions to the finite element analysis and coding problems from the text 'Solved Problems in Applied Mechanics of Solids,' A.F. Bower, CRC press, Baton Rouge, (2026)  [Routlege](https://www.routledge.com/Solved-Problems-in-Applied-Mechanics-of-Solids/Bower/p/book/9781041237198) or [Amazon](https://www.amazon.com/Solved-Problems-Applied-Mechanics-Solids/dp/1041237197/ref=zg_bsnr_g_14585_d_sccl_1/140-2111246-7689054?psc=1). 
 
 ## Example Finite Element Analysis codes
 Example MATLAB codes from the text "Applied Mechanics of Solids" 2nd edition, Allan Bower
