@@ -231,8 +231,7 @@ function kel = elstif(ncoord,ndof,nelnodes,elident,coord,materialprops)
 
       kel = kel + (transpose(B)*D*B)*w(intpt)*dt;
    end
-%    kel
-%    error('stopping')
+ 
 end
 %================= Tie Stiffness ==================================
 %
